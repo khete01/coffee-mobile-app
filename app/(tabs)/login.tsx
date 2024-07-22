@@ -25,6 +25,7 @@ export default function LoginScreen() {
         password,
       });
   };
+
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
       <View style={styles.container}>
